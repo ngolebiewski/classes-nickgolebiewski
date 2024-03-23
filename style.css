@@ -7,7 +7,11 @@ h1{
 }
 
 section>h2{
-  border-bottom: 1px solid magenta;
+  border-bottom: 1px dotted magenta;
+}
+
+section{
+  border-bottom: 3px solid magenta;
 }
 
 img {
