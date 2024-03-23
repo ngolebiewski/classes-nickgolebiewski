@@ -1,0 +1,15 @@
+body{
+  font-family: Futura, Helvetica, sans-serif;
+}
+
+h1{
+  font-size: 3em;
+}
+
+section>h2{
+  border-bottom: 1px solid magenta;
+}
+
+img {
+  width: 80vw;
+}
