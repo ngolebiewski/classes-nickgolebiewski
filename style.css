@@ -3,7 +3,7 @@ body{
 }
 
 h1{
-  font-size: 3em;
+  font-size: 2em;
 }
 
 section>h2{
@@ -14,6 +14,6 @@ section{
   border-bottom: 3px solid magenta;
 }
 
-img {
+.content-img {
   width: 80vw;
 }
