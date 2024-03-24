@@ -1,17 +1,40 @@
 body{
   font-family: Futura, Helvetica, sans-serif;
+  background-color: rgb(246, 246, 246);
+}
+
+header{
+  color: black;
+  padding: 0px;
+  text-transform: uppercase;
+  font-size: 2em;
+  border-bottom: 4px solid black;
 }
 
 h1{
   font-size: 2em;
 }
 
-section>h2{
+h2{
   border-bottom: 1px dotted magenta;
 }
 
 section{
-  border-bottom: 3px solid magenta;
+  border-bottom: 8px solid black;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.homework{
+  background-color: yellow;
+  border-radius: 40px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  margin: 5px;
+  border: 2px black solid;
+  max-width: 800px;
 }
 
 .book {
@@ -19,4 +42,39 @@ section{
 }
 .content-img {
   width: 80vw;
+}
+
+.class-photos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.img-block {
+  max-width: 400px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.img-block > img{
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.img-block > p{
+  font-style: italic;
+}
+
+.class-date {
+  color: black;
+  padding: 2px 5px 0 5px;
+  margin: 5px 10% 0 5px;
 }
