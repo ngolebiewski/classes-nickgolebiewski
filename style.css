@@ -27,6 +27,12 @@ section{
   box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.8);
 }
 
+/* Apply gray background to every even nth child */
+section:nth-child(odd) {
+  background-color: rgb(230, 229, 229);
+}
+
+
 .homework{
   background-color: yellow;
   border-radius: 40px;
